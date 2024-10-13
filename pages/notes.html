@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+	<!-- head element: container for metadata -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Talentic Home</title>
+		<!-- Favicon -->
+		<link
+			rel="icon"
+			type="image/x-icon"
+			href="/img/favicon.ico"
+		/>
+
+		<!-- Styles -->
+		<!-- link element: defines the relationship between the current document and an external resource -->
+
+		<link rel="stylesheet" href="styles.css" />
+		<style>
+			body {
+				background-color: #ffdeb8;
+			}
+			.table-savings,
+			th,
+			td {
+				border: 1px solid black;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Tag <pre></pre> para saltos entre línea -->
+		<pre style="border: 2px solid rgb(255, 99, 71, 0.5)">
+			My Bonnie lies over the ocean.
+
+			My Bonnie lies over the sea.
+
+			My Bonnie lies over the ocean.
+
+			Oh, bring back my Bonnie to me.
+	</pre
+		>
+		<!-- How to link to a JavaScript -->
+		<a href="javascript:alert('Hello World!');"
+			>Execute JavaScript</a
+		>
+		<p>
+			<!--  <abbr> can also be used with <dfn> to define an abbreviation: -->
+			<dfn
+				><abbr title="Cascading Style Sheets">CSS</abbr>
+			</dfn>
+			is a language that describes the style of an HTML
+			document. &yen; &copy; &euro;&reg;&pound;
+			&hearts;&larr;&uarr;&rarr;&darr; &#128514;
+		</p>
+		<section>
+			<header>
+				<h1>maps</h1>
+				<p>address, map&area,</p>
+			</header>
+			<address>
+				Agencia Virtualy Visit us at:<br />
+				<a href="mailto:webmaster@example.com"
+					>info@agenciavirtualy.com</a
+				>.<br />
+				C. de Los Mesejo, 27, Retiro, 28007 Madrid<br />
+				España
+			</address>
+			<!-- The <area> tag defines an area inside an image map (an image map is an image with clickable areas). <area> elements are always nested inside a <map> tag.-->
+			<div
+				style="background-image: url('img/Kelvingrove.jpg')"
+			>
+				<img
+					src="img/workplace.png"
+					alt="Workplace"
+					usemap="#workmap"
+					width="300"
+					height="200"
+				/>
+
+				<map name="workmap">
+					<area
+						target="_blank"
+						alt="Restaurante Coreano Gangnam"
+						title="Restaurante Coreano Gangnam"
+						href='https://www.google.com/maps/place/Restaurante+Coreano+Gangnam/@40.4022865,-3.6721289,18z/data=!4m14!1m7!3m6!1s0xd42274efa0b9f33:0x20b2c01650ac7692!2sAgencia+Virtualy+Marketing+Online!8m2!3d40.4012642!4d-3.6694923!16s%2Fg%2F11qpp9gyy3!3m5!1s0xd42260feed55db5:0x46fe2db45e5cdd4d!8m2!3d40.402751!4d-3.671671!16s%2Fg%2F11bbw_wfz2?hl=es&amp;entry=ttu&amp;g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D"'
+						coords="182,107"
+						shape="rect"
+						onclick="myFunction()"
+					/>
+					<area
+						shape="rect"
+						coords="290,172,333,250"
+						alt="work"
+						href="https://www.google.com/maps/place/Agencia+Virtualy+Marketing+Online/@40.4016727,-3.6711499,18z/data=!4m14!1m7!3m6!1s0xd42274efa0b9f33:0x20b2c01650ac7692!2sAgencia+Virtualy+Marketing+Online!8m2!3d40.4012642!4d-3.6694923!16s%2Fg%2F11qpp9gyy3!3m5!1s0xd42274efa0b9f33:0x20b2c01650ac7692!8m2!3d40.4012642!4d-3.6694923!16s%2Fg%2F11qpp9gyy3?hl=es&entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D"
+					/>
+					<area
+						shape="circle"
+						coords="337,300,44"
+						alt="Cancha Baloncesto Pública Luis Mitjans"
+						href="https://www.google.com/maps/place/Cancha+Baloncesto+P%C3%BAblica+Luis+Mitjans/@40.4018443,-3.6719814,18z/data=!4m14!1m7!3m6!1s0xd42274efa0b9f33:0x20b2c01650ac7692!2sAgencia+Virtualy+Marketing+Online!8m2!3d40.4012642!4d-3.6694923!16s%2Fg%2F11qpp9gyy3!3m5!1s0xd42260fad476de9:0x38d140d25ee25b6d!8m2!3d40.4012458!4d-3.670488!16s%2Fg%2F11g6x8zg5p?hl=es&entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D"
+					/>
+				</map>
+			</div>
+		</section>
+		<br />
+		<figure>
+			<picture>
+				<source
+					media="(min-width: 650px)"
+					srcset="img/Kelvingrove.jpg"
+				/>
+				<source
+					media="(min-width: 465px)"
+					srcset="img/palmHouse.jpg"
+				/>
+				<img src="workplace.png" style="width: auto" />
+			</picture>
+			<figcaption>
+				Fig1. - Kelvingrove Museum, Glasgow, Scotland.
+			</figcaption>
+		</figure>
+
+		<p>
+			This is normal text -
+			<mark>this is mark one</mark> -
+			<strong>this is strong one</strong> -
+			<em>and this is emphasized one</em>
+		</p>
+		<p>
+			This is normal text -
+			<span style="font-weight: bold"
+				>and this is bold text</span
+			>.
+		</p>
+		<button
+			onclick="document.location='default.asp'"
+			type="button"
+		>
+			<strong>Click Me!</strong>
+		</button>
+		<a
+			href="https://www.w3schools.com/html/"
+			target="_blank"
+			title="Go to W3Schools HTML section"
+			>Visit our HTML Tutorial</a
+		>
+
+		<canvas id="myCanvas">
+			Your browser does not support the canvas tag.
+		</canvas>
+
+		<script>
+			let canvas = document.getElementById("myCanvas");
+			let ctx = canvas.getContext("2d");
+			ctx.fillStyle = "#FF0000";
+			ctx.fillRect(0, 0, 80, 80);
+		</script>
+
+		<p>
+			<cite>The Scream</cite> by Edward Munch. Painted in
+			1893.
+		</p>
+		<table class="table-savings">
+			<tr>
+				<th style="width: 20%" colspan="2">Name</th>
+				<th style="width: 20%">Age</th>
+			</tr>
+			<tr>
+				<td>Jill</td>
+				<td>Smith</td>
+				<td>50</td>
+			</tr>
+			<tr>
+				<td>Eve</td>
+				<td>Jackson</td>
+				<td>94</td>
+			</tr>
+		</table>
+		<table>
+			<colgroup>
+				<!-- rgba(255, 99, 71, 0) color: transparencia-->
+				<col
+					span="2"
+					style="background-color: rgba(255, 99, 71, 0)"
+				/>
+				<col style="background-color: yellow" />
+			</colgroup>
+			<tr>
+				<th>ISBN</th>
+				<th>Title</th>
+				<th>Price</th>
+			</tr>
+			<tr>
+				<td>3476896</td>
+				<td>My first HTML</td>
+				<td>$53</td>
+			</tr>
+		</table>
+		<h1 id="myHeader" style="background-color: powderblue">
+			uuuuu
+		</h1>
+		<p style="font-size: 160%">This is some text.</p>
+		<hr />
+		<h2 style="color: blue">This is a heading 2</h2>
+		<p style="font-family: courier; text-align: center">
+			This is some other text.
+		</p>
+		<hr />
+		<small>This is some smaller text.</small>
+		<p>
+			My favorite color is <del>blue</del> <ins>red</ins>.
+		</p>
+		<p>This is <sup>superscripted</sup> text.</p>
+		<p>This is <sup>superscripted</sup> text.</p>
+		<h2 id="C4">
+			<a
+				target="_blank"
+				href="https://www.youtube.com/watch?v=VmUTGBxVcnc"
+				>Chapter 4 - Harry Potter and the Philosopher's
+				Stone</a
+			>
+		</h2>
+		<img
+			src="https://www.w3schools.com/images/w3schools_green.jpg"
+			alt="W3Schools.com"
+		/>
+		<p>
+			<img
+				src="smiley.gif"
+				alt="Smiley face"
+				style="float: right; width: 42px; height: 42px"
+			/>
+		</p>
+		<!-- HTML Description Lists -->
+		<dl>
+			<dt>Coffee</dt>
+			<dd>- black hot drink</dd>
+			<dt>Milk</dt>
+			<dd>- white cold drink</dd>
+		</dl>
+		<!-- Iframe: para mostrar una web dentro de la web -->
+		<iframe
+			src="https://react-portfolio-beryl-six.vercel.app/"
+			height="550"
+			width="350"
+			style="border: none"
+			title="My portfolio Iframe"
+		></iframe>
+		<br />
+		<code> x = 5; y = 6; z = x + y; </code>
+		<!-- The HTML <kbd> element is used to define keyboard input -->
+		<p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
+		<p>
+			The area of a triangle is: 1/2 x <var>b</var> x
+			<var>h</var>, where <var>b</var> is the base, and
+			<var>h</var> is the vertical height.
+		</p>
+
+		<!-- JS -->
+		<script>
+			function myFunction() {
+				alert(
+					"You clicked on the Restaurante Coreano Gangnam"
+				);
+			}
+			// hay que añadir window.onload porque si no no se carga el js
+			window.onload = function () {
+				displayResult();
+			};
+
+			function displayResult() {
+				document.getElementById("myHeader").innerHTML =
+					"This is a heading with JS";
+			}
+		</script>
+	</body>
+</html>
